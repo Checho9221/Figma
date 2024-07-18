@@ -1,0 +1,52 @@
+/*
+1. Posicionamiento
+2. Modelo de Caja
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+:root {
+    /*Colores*/
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ESTILAR LA TERCERA PARTE DE LA SECCIÓN PRINCIPAL*/
+
+.bitcon-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcon-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
